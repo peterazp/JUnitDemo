@@ -31,7 +31,9 @@ public class JUnitHelloWorldTest2 {
 	public void after() {
 		System.out.println("After Test Case");
 	}
-
+	/**
+	 * @wi.implements JunitDemo/JD-391 Test
+	 */
 	@AfterClass
 	public static void afterClass() {
 		System.out.println("After Class");
