@@ -21,10 +21,13 @@ public class JUnitHelloWorldTest1 {
 	}
 
 	@Test
+	/**
+	 * @wi.implements JunitDemo/JD-391 It should say facebook
+	 */
 	public void isGreaterTest() {
 		System.out.println("Test");
 		JUnitHelloWorld tester = new JUnitHelloWorld();
-		assertTrue("Num 1 is greater than Num 2", tester.isGreater(2, 3));
+		assertTrue("Num 1 is greater than Num 2", tester.isGreater(4, 3));
 	}
 
 	@After
