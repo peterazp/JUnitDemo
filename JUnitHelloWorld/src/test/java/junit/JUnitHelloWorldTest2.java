@@ -1,7 +1,7 @@
 package junit;
 
 import static org.junit.Assert.assertTrue;
-
+//Commenting for good practice
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
