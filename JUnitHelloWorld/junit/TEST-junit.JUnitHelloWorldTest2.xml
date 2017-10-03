@@ -1,142 +1,151 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="PL1SEMAL0031NB" name="junit.JUnitHelloWorldTest2" skipped="0" tests="1" time="0.043" timestamp="2017-10-02T11:56:21">
+<testsuite errors="1" failures="0" hostname="siemensdc" name="junit.JUnitHelloWorldTest2" skipped="0" tests="1" time="0.047" timestamp="2017-10-02T17:01:33">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
-    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="PLM" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="COSMOS" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
-    <property name="eclipse.pdebuild.templates" value="E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates" />
+    <property name="eclipse.pdebuild.templates" value="C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="env.PROMPT" value="$P$G" />
-    <property name="os.name" value="Windows 7" />
+    <property name="env.FMS_HOME" value="C:\Apps\PLM\TcRoot\tccs" />
+    <property name="os.name" value="Windows Server 2012 R2" />
     <property name="env.FP_NO_HOST_CHECK" value="NO" />
-    <property name="sun.boot.class.path" value="E:\Programs\Java\jdk1.8.0_144\jre\lib\resources.jar;E:\Programs\Java\jdk1.8.0_144\jre\lib\rt.jar;E:\Programs\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;E:\Programs\Java\jdk1.8.0_144\jre\lib\jsse.jar;E:\Programs\Java\jdk1.8.0_144\jre\lib\jce.jar;E:\Programs\Java\jdk1.8.0_144\jre\lib\charsets.jar;E:\Programs\Java\jdk1.8.0_144\jre\lib\jfr.jar;E:\Programs\Java\jdk1.8.0_144\jre\classes" />
-    <property name="env.COMPUTERNAME" value="PL1SEMAL0031NB" />
+    <property name="sun.boot.class.path" value="C:\Apps\jre1.8_1.3.1\lib\resources.jar;C:\Apps\jre1.8_1.3.1\lib\rt.jar;C:\Apps\jre1.8_1.3.1\lib\sunrsasign.jar;C:\Apps\jre1.8_1.3.1\lib\jsse.jar;C:\Apps\jre1.8_1.3.1\lib\jce.jar;C:\Apps\jre1.8_1.3.1\lib\charsets.jar;C:\Apps\jre1.8_1.3.1\lib\jfr.jar;C:\Apps\jre1.8_1.3.1\classes" />
+    <property name="env.COMPUTERNAME" value="SIEMENSDC" />
     <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
-    <property name="user.country.format" value="SE" />
     <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
     <property name="sun.desktop" value="windows" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-    <property name="ant.home" value="E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840" />
-    <property name="java.runtime.version" value="1.8.0_144-b01" />
-    <property name="env.HOMEPATH" value="\Users\thhh5m" />
-    <property name="user.name" value="thhh5m" />
-    <property name="user.language.format" value="sv" />
+    <property name="ant.home" value="C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+    <property name="java.runtime.version" value="1.8.0_131-b11" />
+    <property name="env.HOMEPATH" value="\Users\Administrator" />
+    <property name="user.name" value="Administrator" />
     <property name="ant.file.type.JUnitHelloWorld" value="file" />
-    <property name="env.TI_SITE" value="go" />
     <property name="user.language" value="en" />
-    <property name="env.PLTASK" value="Used Task Sequence: HP-ZBook15G2; Deployed to:HP ZBook 15 G2; SN:CND52120D1" />
-    <property name="sun.boot.library.path" value="E:\Programs\Java\jdk1.8.0_144\jre\bin" />
+    <property name="sun.boot.library.path" value="C:\Apps\jre1.8_1.3.1\bin" />
     <property name="ant.project.default-target" value="build" />
     <property name="ant.project.name" value="JUnitHelloWorld" />
-    <property name="java.version" value="1.8.0_144" />
+    <property name="env.SPLM_LICENSE_SERVER" value="28000@siemensdc" />
+    <property name="java.version" value="1.8.0_131" />
     <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel" />
     <property name="user.timezone" value="" />
-    <property name="env.TEMP" value="C:\Users\thhh5m\AppData\Local\Temp" />
+    <property name="env.TEMP" value="C:\Users\ADMINI~1\AppData\Local\Temp" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="java.endorsed.dirs" value="E:\Programs\Java\jdk1.8.0_144\jre\lib\endorsed" />
+    <property name="env.APR_ICONV_PATH" value="C:\Apps\Polarion\bundled\svn\iconv" />
+    <property name="java.endorsed.dirs" value="C:\Apps\jre1.8_1.3.1\lib\endorsed" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="env.HOMEDRIVE" value="C:" />
+    <property name="env.TC_USE_PREFS_SHARED_MEMORY" value="FALSE" />
     <property name="sun.jnu.encoding" value="Cp1252" />
     <property name="file.encoding.pkg" value="sun.io" />
     <property name="ECLIPSE_HOME" value="../../../eclipse-jee-oxygen-R-win32-x86_64/eclipse/" />
     <property name="file.separator" value="\" />
     <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="env.GEOLUS_HOME" value="C:\Apps\PLM\Geolus" />
     <property name="java.class.version" value="52.0" />
     <property name="user.country" value="US" />
-    <property name="java.home" value="E:\Programs\Java\jdk1.8.0_144\jre" />
-    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules" />
-    <property name="env.APPDATA" value="C:\Users\thhh5m\AppData\Roaming" />
+    <property name="java.home" value="C:\Apps\jre1.8_1.3.1" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\Administrator\AppData\Roaming" />
     <property name="env.PUBLIC" value="C:\Users\Public" />
     <property name="java.vm.info" value="mixed mode" />
-    <property name="env.ComSpec" value="C:\windows\system32\cmd.exe" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
     <property name="env.OS" value="Windows_NT" />
     <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
-    <property name="ant.file" value="E:\git-repos\JUnitDemo\JUnitHelloWorld\build.xml" />
-    <property name="os.version" value="6.1" />
+    <property name="ant.file" value="C:\git-repos\JUnitDemo\JUnitHelloWorld\build.xml" />
+    <property name="os.version" value="6.3" />
     <property name="env.ProgramW6432" value="C:\Program Files" />
-    <property name="env.STT_SITE" value="Gothenburg" />
     <property name="path.separator" value=";" />
-    <property name="java.vm.version" value="25.144-b01" />
+    <property name="java.vm.version" value="25.131-b11" />
     <property name="user.variant" value="" />
-    <property name="env.USERPROFILE" value="C:\Users\thhh5m" />
-    <property name="ant.library.dir" value="E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+    <property name="env.USERPROFILE" value="C:\Users\Administrator" />
+    <property name="ant.library.dir" value="C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
     <property name="junit.output.dir" value="junit" />
-    <property name="env.JAVA_HOME" value="E:\Programs\Java\jdk1.8.0_144\" />
-    <property name="env.SNC_LIB" value="C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll" />
+    <property name="env.JAVA_HOME" value="C:\Apps\jdk1.8_1.3.1" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-    <property name="env.TMP" value="C:\Users\thhh5m\AppData\Local\Temp" />
+    <property name="env.TMP" value="C:\Users\ADMINI~1\AppData\Local\Temp" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="user.script" value="" />
-    <property name="env.SNC_LIB_64" value="C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll" />
-    <property name="eclipse.pdebuild.scripts" value="E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts" />
-    <property name="user.home" value="C:\Users\thhh5m" />
+    <property name="eclipse.pdebuild.scripts" value="C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts" />
+    <property name="user.home" value="C:\Users\Administrator" />
     <property name="target" value="1.5" />
     <property name="env.ProgramData" value="C:\ProgramData" />
-    <property name="env.VS140COMNTOOLS" value="C:\apps\MVS14\Common7\Tools\" />
-    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
     <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
-    <property name="java.library.path" value="E:\Programs\Java\jdk1.8.0_144\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:/Programs/Java/jre1.8.0_144/bin/server;E:/Programs/Java/jre1.8.0_144/bin;E:/Programs/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;E:\Programs\nodejs\;E:\Programs\Git\cmd;E:\apache-ant-1.10.1\bin;E:\Programs\Java\jdk1.8.0_144\bin;E:\apache-maven-3.5.0\bin;E:\Programs\PuTTY\;C:\Program Files (x86)\Skype\Phone\;C:\Users\thhh5m\AppData\Roaming\npm;C:\Users\thhh5m\AppData\Local\GitHubDesktop\bin;E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse;;." />
-    <property name="env.NUMBER_OF_PROCESSORS" value="8" />
-    <property name="env.USERDNSDOMAIN" value="NET.PLM.EDS.COM" />
+    <property name="java.library.path" value="C:\Apps\jre1.8_1.3.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Apps/jre1.8_1.3.1/bin/server;C:/Apps/jre1.8_1.3.1/bin;C:/Apps/jre1.8_1.3.1/lib/amd64;C:\Apps\Polarion\bundled\svn\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Apps\PLM\TcVis\Products\Mockup\ClearanceDB;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Apps\apache-maven-3.5.0\bin;C:\apache-ant-1.10.1\bin;C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+    <property name="env.TCVIS_CLUSTER_PATH" value="C:\Apps\PLM\TcVis\Products\Mockup\VisView.exe" />
+    <property name="env.USERDNSDOMAIN" value="COSMOS.ASP" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="java.class.path" value="E:\git-repos\JUnitDemo\JUnitHelloWorld\target\classes;E:\git-repos\JUnitDemo\JUnitHelloWorld\target\test-classes;C:\Users\thhh5m\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\thhh5m\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner junit.JUnitHelloWorldTest2 skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\git-repos\JUnitDemo\JUnitHelloWorld\junit\TEST-junit.JUnitHelloWorldTest2.xml crashfile=E:\git-repos\JUnitDemo\JUnitHelloWorld\junitvmwatcher5773783101547114845.properties propsfile=E:\git-repos\JUnitDemo\JUnitHelloWorld\junit6604110550787642699.properties" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner junit.JUnitHelloWorldTest2 skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\git-repos\JUnitDemo\JUnitHelloWorld\junit\TEST-junit.JUnitHelloWorldTest2.xml crashfile=C:\git-repos\JUnitDemo\JUnitHelloWorld\junitvmwatcher1607505067262364442.properties propsfile=C:\git-repos\JUnitDemo\JUnitHelloWorld\junit9091930128343996021.properties" />
+    <property name="java.class.path" value="C:\git-repos\JUnitDemo\JUnitHelloWorld\target\classes;C:\git-repos\JUnitDemo\JUnitHelloWorld\target\test-classes;C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-    <property name="env.TELELOGIC_LICENSE_FILE" value="e:\Rhapsody_Eval_Key.dat" />
-    <property name="env.LOGONSERVER" value="\\DEKODPLM005" />
-    <property name="env.windir" value="C:\windows" />
-    <property name="java.vm.specification.version" value="1.8" />
+    <property name="env.LOGONSERVER" value="\\SIEMENSDC" />
+    <property name="env.windir" value="C:\Windows" />
     <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
-    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
     <property name="sun.cpu.endian" value="little" />
     <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840" />
     <property name="env.ProgramFiles" value="C:\Program Files" />
-    <property name="env.ANT_HOME" value="E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840" />
-    <property name="java.io.tmpdir" value="C:\Users\thhh5m\AppData\Local\Temp\" />
-    <property name="eclipse.pdebuild.home" value="E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\." />
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\" />
     <property name="env.PROCESSOR_REVISION" value="3c03" />
+    <property name="eclipse.pdebuild.home" value="C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\." />
     <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
-    <property name="env.PLCompliant" value="Phase3" />
-    <property name="env.PLIMAGE" value="WDS Image, Deployed by ballestnadmin on 2017-06-21" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-    <property name="env.SystemRoot" value="C:\windows" />
-    <property name="os.arch" value="amd64" />
+    <property name="env.SystemRoot" value="C:\Windows" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-    <property name="java.ext.dirs" value="E:\Programs\Java\jdk1.8.0_144\jre\lib\ext;C:\windows\Sun\Java\lib\ext" />
-    <property name="user.dir" value="E:\git-repos\JUnitDemo\JUnitHelloWorld" />
-    <property name="env.MAVEN_HOME" value="E:\apache-maven-3.5.0" />
-    <property name="env.LOCALAPPDATA" value="C:\Users\thhh5m\AppData\Local" />
-    <property name="env.SSF_LIBRARY_PATH_64" value="C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Apps\jre1.8_1.3.1\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\git-repos\JUnitDemo\JUnitHelloWorld" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Administrator\AppData\Local" />
+    <property name="env.MAVEN_HOME" value="C:\Apps\apache-maven-3.5.0" />
     <property name="line.separator" value="&#xd;&#xa;" />
-    <property name="ant.file.JUnitHelloWorld" value="E:\git-repos\JUnitDemo\JUnitHelloWorld\build.xml" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.file.JUnitHelloWorld" value="C:\git-repos\JUnitDemo\JUnitHelloWorld\build.xml" />
     <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
-    <property name="env.Path" value="E:/Programs/Java/jre1.8.0_144/bin/server;E:/Programs/Java/jre1.8.0_144/bin;E:/Programs/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;E:\Programs\nodejs\;E:\Programs\Git\cmd;E:\apache-ant-1.10.1\bin;E:\Programs\Java\jdk1.8.0_144\bin;E:\apache-maven-3.5.0\bin;E:\Programs\PuTTY\;C:\Program Files (x86)\Skype\Phone\;C:\Users\thhh5m\AppData\Roaming\npm;C:\Users\thhh5m\AppData\Local\GitHubDesktop\bin;E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse;" />
-    <property name="basedir" value="E:\git-repos\JUnitDemo\JUnitHelloWorld" />
+    <property name="env.JRE_HOME" value="C:\Apps\jre1.8_1.3.1" />
+    <property name="env.Path" value="C:/Apps/jre1.8_1.3.1/bin/server;C:/Apps/jre1.8_1.3.1/bin;C:/Apps/jre1.8_1.3.1/lib/amd64;C:\Apps\Polarion\bundled\svn\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Apps\PLM\TcVis\Products\Mockup\ClearanceDB;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Apps\apache-maven-3.5.0\bin;C:\apache-ant-1.10.1\bin;C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse;" />
+    <property name="basedir" value="C:\git-repos\JUnitDemo\JUnitHelloWorld" />
     <property name="ant.java.version" value="1.8" />
-    <property name="ant.core.lib" value="E:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
-    <property name="env.USERNAME" value="thhh5m" />
-    <property name="env.SystemDrive" value="C:" />
+    <property name="ant.core.lib" value="C:\eclipse-jee-oxygen-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+    <property name="env.USERNAME" value="Administrator" />
     <property name="source" value="1.5" />
+    <property name="env.SystemDrive" value="C:" />
     <property name="file.encoding" value="Cp1252" />
-    <property name="env.USERDOMAIN" value="PLM" />
+    <property name="env.USERDOMAIN" value="COSMOS" />
     <property name="java.specification.version" value="1.8" />
-    <property name="ant.project.invoked-targets" value="junit,junitreport" />
-    <property name="env.SITENAS" value="\\PLM\gonas\" />
-    <property name="env.SSF_LIBRARY_PATH" value="C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll" />
+    <property name="ant.project.invoked-targets" value="build,junit" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="junit.JUnitHelloWorldTest2" name="isGreaterTest" time="0.001" />
-  <system-out><![CDATA[Before Class
-Before Test Case
-Test
-After Test Case
-After Class
-]]></system-out>
+  <testcase classname="junit.JUnitHelloWorldTest2" name="initializationError" time="0.015">
+    <error message="org/hamcrest/SelfDescribing" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.SelfDescribing
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
