@@ -22,7 +22,7 @@ public class JUnitHelloWorldTest1 {
 
 	@Test
 	/**
-	 * @wi.implements JunitDemo/JD-391 It should say facebook
+	 * @wi.implements JunitDemo/JD-391 My comment
 	 */
 	public void isGreaterTest() {
 		System.out.println("Test");
